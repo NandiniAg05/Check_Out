@@ -1,0 +1,71 @@
+.grid-info-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.product-a{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+.bag{
+    width: 80%;
+    border-radius: 20px;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.final{
+    font-size: 15.5px;
+    color: rgb(243, 114, 28);
+}
+.original{
+    font-size: 14.5px;
+    text-decoration: line-through;
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.shipment{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top-color: rgb(216, 215, 215);
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 8px;
+    font-size: 18px;
+}
+.price-a{
+    text-align: end;
+}
+.input-box-a{
+    height: 15px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 30%;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-top: 5px;
+}
